@@ -1,0 +1,19 @@
+{
+  "name": "practicafunciones",
+  "version": "1.0.0",
+  "main": "miIndex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diroco1964/practicaPromesas.git"
+  },
+  "author": "Diana Rodríguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diroco1964/practicaPromesas/issues"
+  },
+  "homepage": "https://github.com/diroco1964/practicaPromesas#readme",
+  "description": ""
+}

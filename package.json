@@ -15,5 +15,8 @@
     "url": "https://github.com/diroco1964/practicaPromesas/issues"
   },
   "homepage": "https://github.com/diroco1964/practicaPromesas#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }

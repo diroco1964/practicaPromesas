@@ -13,7 +13,7 @@ e) Ejecutar las promesas y definir como se debe comportar en cada caso (resuelto
 
 const colors = require('colors');
 
-let alumnno = {
+const alumnno = {
     nombre: "Ana",
     edad: 26,
     inscriptoAMaterias: [],

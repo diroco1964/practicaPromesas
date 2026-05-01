@@ -14,43 +14,7 @@ f) Ejecutar las promesas y definir como se debe comportar en cada caso (resuelto
 
 const colors = require('colors');
 
-const producto1 = {
-    id: 1,
-    nombreProducto: "CD",
-    precio: 150,
-    stock: 4
-}
 
-
-const producto2 = {
-    id: 2,
-    nombreProducto: "DVD",
-    precio: 250,
-    stock: 5
-}
-
-const producto3 = {
-    id: 3,
-    nombreProducto: "Vinilo",
-    precio: 350,
-    stock: 2
-}
-
-const producto4 = {
-    id: 4,
-    nombreProducto: "Blu-ray",
-    precio: 450,
-    stock: 3
-}
-
-const producto5 = {
-    id: 5,
-    nombreProducto: "Cassette",
-    precio: 1000,
-    stock: 10
-}
-
-const productos = [producto1, producto2, producto3, producto4, producto5]
 
 function validarStock(nombreProducto, productos,cantidadSolicitada) {
     return new Promise((resolve, reject) => {
@@ -100,5 +64,4 @@ async function procesarVenta(nombreProducto, productos, cantidadSolicitada) {
     }
 }
 
-+
-procesarVenta("Cassette", productos, 8);
+module.exports = {validarStock, realizarVenta, imprimirEtiqueta, procesarVenta}

@@ -48,8 +48,6 @@ function procesarTransaccion(saldo) {
         })
 }
 
-let miCuenta = {
-    saldo: 600
-}
 
-procesarTransaccion(miCuenta.saldo)
+
+module.exports = {validarSaldoCuenta, ejecutarTransaccion, procesarTransaccion}
